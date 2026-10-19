@@ -142,7 +142,7 @@ object $$lang$API {
   type $$Int$ = Int
   type $$Double$ = Double
   type $$String$ = String
-}
+
 
 object $$lang$Init {
   def init(builtins: CoreBuiltins): Unit = {
