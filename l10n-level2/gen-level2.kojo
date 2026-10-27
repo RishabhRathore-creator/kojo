@@ -5,11 +5,11 @@ import net.kogics.kojo.util.RichFile.enrichFile
 
 clearOutput()
 
-val kojoDir = "/home/lalit/work/kojo"
+val kojoDir = "C:/Users/Rishabh Rathore/IdeaProjects/kojo-hindi-1"
 val targetLangCode = "hi"
 
-val templateFile = s"$kojoDir/l10n-level2/langInit.scala.template"
-val replacementsFile = s"$kojoDir/l10n-level2/level2_$targetLangCode.properties"
+val templateFile = s"C:/Users/Rishabh Rathore/IdeaProjects/kojo-hindi-1/l10n-level2/langInit.scala.template"
+val replacementsFile = s"C:/Users/Rishabh Rathore/IdeaProjects/kojo-hindi-1/l10n-level2/level2_$targetLangCode.properties"
 
 val varPattern = """\$\$(.*?)\$"""
 val pattern = Pattern.compile(varPattern)
